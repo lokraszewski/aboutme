@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -108,7 +108,7 @@ figure {
   #colorlib-aside .number {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;}  
+    font-size: 12px;}
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
@@ -294,8 +294,9 @@ figure {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
-          padding: 0;
-          color: black;
+          padding: 5;
+          color: white;
+          text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
