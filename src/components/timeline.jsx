@@ -16,6 +16,19 @@ export default class Timeline extends Component {
               <div className="col-md-12">
                 <div className="timeline-centered">
 
+                	{/*staff software at ARM*/}
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Staff Software Engineer at Arm <span>2022-present</span></h2>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
                 	{/*Senior software at ARM*/}
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
@@ -23,7 +36,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Senior Software Engineer at Arm <span>2020-present</span></h2>
+                        <h2>Senior Software Engineer at Arm <span>2020-2022</span></h2>
                         <p></p>
                       </div>
                     </div>
@@ -59,7 +72,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Firmware Engineer at Kratos Analytical Ltd <span>2016-2018</span></h2>
-                        <p></p> 
+                        <p></p>
                       </div>
                     </div>
                   </article>
@@ -71,7 +84,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Embedded Software Engineer at Innovative Technology Ltd <span>2015-2016</span></h2>
-                        <p></p> 
+                        <p></p>
                       </div>
                     </div>
                   </article>
@@ -83,7 +96,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Student at University of Hull <span>2011-2015</span></h2>
-                        <p></p> 
+                        <p></p>
                       </div>
                     </div>
                   </article>
