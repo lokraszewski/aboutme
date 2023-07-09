@@ -70,6 +70,13 @@ export default class Sidebar extends Component {
                 >
                   <i className="icon-github"></i>
                 </a>
+                <a
+                  href="https://github.com/lukokr-aarch64"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-github"></i>
+                </a>
               </p>
               <p>
                 <small>
