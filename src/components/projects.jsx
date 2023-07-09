@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import work1Image from '../images/work1.jpg'
+import work2Image from '../images/work2.jpg'
+import work3Image from '../images/work3.jpg'
 
 export default class Projects extends Component {
   render() {
@@ -25,7 +28,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/work1.jpg)" }}
+                  style={{ backgroundImage: `url(${work1Image}` }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -48,7 +51,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/work1.jpg)" }}
+                  style={{ backgroundImage: `url(${work1Image}` }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -71,7 +74,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/work2.jpg)" }}
+                  style={{ backgroundImage: `url(${work2Image}` }}
                 >
                   <div className="desc">
                     <div className="con">
@@ -92,7 +95,7 @@ export default class Projects extends Component {
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/work3.jpg)" }}
+                  style={{ backgroundImage: `url(${work3Image}` }}
                 >
                   <div className="desc">
                     <div className="con">

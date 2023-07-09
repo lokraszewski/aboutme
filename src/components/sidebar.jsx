@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import headshotImage from '../images/headshot.jpg'
+
 
 export default class Sidebar extends Component {
   render() {
@@ -19,7 +21,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div
                 className="author-img"
-                style={{ backgroundImage: "url(images/headshot.jpg)" }}
+                style={{ backgroundImage: `url(${headshotImage})` }}
               />
               <h1 id="colorlib-logo">
                 <a href="index.html">Lukasz Okraszewski</a>
