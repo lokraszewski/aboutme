@@ -18,6 +18,30 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row">
+
+            <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/work1.jpg)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a href="https://www.arm.com/products/silicon-ip-multimedia/gpu/mali-g78ae">
+                        Mali-G78AE
+                        </a>
+                      </h3>
+                      <span>
+                        Reference virtualization driver implementation for the G78AE automotive grade GPU targeting the Xen hypervisor.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div
                 className="col-md-4 animate-box"
                 data-animate-effect="fadeInLeft"
@@ -34,7 +58,7 @@ export default class Projects extends Component {
                         </a>
                       </h3>
                       <span>
-                        Reference driver implemenation for automotive image
+                        Reference driver implementation for automotive image
                         signal processor.
                       </span>
                     </div>
