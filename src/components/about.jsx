@@ -44,12 +44,13 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                   <span className="icon">
-                    <i className="icon-signal" />
+                    <i className="icon-upload" />
                   </span>
                   <div className="desc">
-                    <h3>Embedded Software</h3>
+                    <h3>Build Systems</h3>
                     <p>
-                      Variety of projects both bare-metal & RTOS, using C/C++.
+                      Maintainer of <a href="https://github.com/ARM-software/bob-build">bob-build</a>. Experience in migration and optimization of popular
+                      build tools such as Bazel, Soong, CMake.
                     </p>
                   </div>
                 </div>
@@ -58,25 +59,12 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-2">
                   <span className="icon">
-                    <i className="icon-truck2" />
+                    <i className="icon-signal" />
                   </span>
                   <div className="desc">
-                    <h3>Linux Kernel</h3>
-                    <p>Kernel Driver development.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                  <span className="icon">
-                    <i className="icon-upload" />
-                  </span>
-                  <div className="desc">
-                    <h3>Build Systems</h3>
+                    <h3>Embedded Software</h3>
                     <p>
-                      Experience refactoring/designing complex build systems
-                      using CMake and Make. CI scripting for Jenkins, Gitlab-CI.
+                      Variety of projects both bare-metal & RTOS, using C/C++. Experience in medical & automotive sectors.
                     </p>
                   </div>
                 </div>
@@ -88,8 +76,24 @@ export default class About extends Component {
                     <i className="icon-radar" />
                   </span>
                   <div className="desc">
-                    <h3>Scripting</h3>
-                    <p>Variety of BASH/Python scripting experience</p>
+                    <h3>CI/CD</h3>
+                    <p>
+                      Experience in writing CI/CD pipelines targeting
+                      Gitlab, Jenkins, Github Actions and custom in-house
+                      solutions.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4 text-center animate-box">
+                <div className="services color-3">
+                  <span className="icon">
+                    <i className="icon-truck2" />
+                  </span>
+                  <div className="desc">
+                    <h3>Linux Kernel</h3>
+                    <p>Kernel Driver development for GPUs & ISPs. </p>
                   </div>
                 </div>
               </div>
@@ -97,26 +101,13 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                   <span className="icon">
-                    <i className="icon-spanner" />
-                  </span>
-                  <div className="desc">
-                    <h3>Problem Solving</h3>
-                    <p>Debugging both hardware and software bugs.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                  <span className="icon">
                     <i className="icon-device-laptop" />
                   </span>
                   <div className="desc">
                     <h3>Testing</h3>
                     <p>
-                      Functional/unit/integration software testing. Acquitented
-                      with TDD principles. Familiar with hardware testing jig
-                      design and automation.{" "}
+                      Functional/unit/integration software testing. Familiar
+                      with hardware testing jig design and automation.
                     </p>
                   </div>
                 </div>
